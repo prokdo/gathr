@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUncheckedSideEffectImports": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "outDir": "./build",
+      "typeRoots": ["./@types", "./node_modules/@types"]
+    },
+    "include": ["src/**/*"]
+  }
